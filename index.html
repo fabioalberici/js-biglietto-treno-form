@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <!-- sezione dati -->
+      <section>
+        <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+        <div class="wrapper-uno">
+          <div class="dati-utente">
+            <label for="">Nome Cognome</label>
+            <input id="nome" type="text" placeholder="Nome Cognome">
+          </div>
+          <div class="dati-utente">
+            <label for="">Km da percorrere</label>
+            <input id="km" type="number" placeholder="Km da percorrere">
+          </div>
+          <div class="dati-utente">
+            <label for="">Fascia d'età</label>
+            <select id="eta">
+              <option value="maggiorenne">Maggiorenne</option>
+              <option value="minorenne">Minorenne</option>
+              <option value="over">Over 65</option>
+            </select>
+          </div>
+          <div class="bottoni-dati">
+            <button id="btn-genera">Genera</button>
+            <button id="btn-annulla">Annulla</button>
+          </div>
+          </div>
+      </section>
+      <!-- sezione biglietto -->
+      <section>
+        <h2>IL TUO BIGLIETTO</h2>
+        <div id="biglietto">
+          <div class="sottosezione">
+            <h3>DETTAGLIO PASSEGGERO</h3>
+            <div class="info-biglietto">
+              <div class="info-singola-nome">
+                <h4>NOME PASSEGGERO</h4>
+                <span id="nome"></span>
+              </div>
+              <div class="info-singola">
+                <h4>Offerta</h4>
+                <span>test</span>
+              </div>
+              <div class="info-singola">
+                <h4>Carrozza</h4>
+                <span>test</span>
+              </div>
+              <div class="info-singola">
+                <h4>Codice Cp</h4>
+                <span>test</span>
+              </div>
+              <div class="info-singola">
+                <h4>Codice Biglietto</h4>
+                <span>test</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
